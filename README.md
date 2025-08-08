@@ -43,3 +43,5 @@ El objetivo de esta práctica es implementar y comparar dos enfoques para calcul
 ### **Iterativo:**  
 <img width="733" height="557" alt="image" src="https://github.com/user-attachments/assets/5d04cb46-017b-4f82-9ea9-632de9dd1cbd" />  
 <img width="700" height="540" alt="image" src="https://github.com/user-attachments/assets/ed09fb96-2171-4e6d-a8c6-422572265a65" />  
+-
+### **C**
