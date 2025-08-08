@@ -3,7 +3,8 @@
 ## Propósito de la tarea  
 El objetivo de esta práctica es implementar y comparar dos enfoques para calcular el factorial de un número entero positivo:
   1. Recursivo  
-  2. Iterativo  La comparación se realiza en Python y C evaluando el **tiempo de ejecución** y el **uso de memoria** para cada implementación.
+  2. Iterativo
+La comparación se realiza en Python y C evaluando el **tiempo de ejecución** y el **uso de memoria** para cada implementación.
 ---
 ## Implementación de las funciones  
 ### **Python**
@@ -25,13 +26,8 @@ def fact_i(n):
           return n * facto_r(n - 1)  
 ### **C**  
 ~Iterativo:  
-unsigned long long factorial_iterativo(int n)  
-  {  
-    unsigned long long resultado = 1;  
-    for (int i = 1; i <= n; ++i)  
-        resultado *= i;  
-    return resultado;  
-  }  
+<img width="487" height="146" alt="image" src="https://github.com/user-attachments/assets/3c1054bb-775c-47c9-9421-629494c3a15e" />
+
 ~Recursivo:  
 unsigned long long factorial_recursivo(int n) {  
     if (n <= 1) return 1;  
