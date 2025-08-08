@@ -32,7 +32,7 @@ El objetivo de esta práctica es implementar y comparar dos enfoques para calcul
 ~En Python, el iterativo es más rápido que el recursivo para valores grandes de n.  
 ~En C, ambos son rápidos, pero el iterativo es ligeramente más eficiente.  
 ### **Memoria:**  
-~El recursivo consume más memoria por la acumulación de llamadas en la pila.  
+~El recursivo consume más memoria por la acumulación de llamadas en la pila. 
 ~El iterativo mantiene un uso casi constante.  
 ---
 ### **Gráficos:**  
