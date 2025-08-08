@@ -35,7 +35,7 @@ El objetivo de esta práctica es implementar y comparar dos enfoques para calcul
 ~El recursivo consume más memoria por la acumulación de llamadas en la pila. 
 ~El iterativo mantiene un uso casi constante.  
 ---
-### **Gráficos:**  
+## **Gráficos:**  
 ### **Phyton:**  
 ### **Recursivo**  
 <img width="739" height="558" alt="image" src="https://github.com/user-attachments/assets/86a06d75-0af2-4522-b369-82d5c6640da8" />  
