@@ -9,27 +9,14 @@ La comparación se realiza en Python y C evaluando el **tiempo de ejecución** y
 ## Implementación de las funciones  
 ### **Python**
 ~Iterativo:  
-def fact_i(n):  
-    if n < 0:  
-        return "Error"  
-    result = 1  
-    for i in range(1, n + 1):  
-        result *= i  
-    return result  
+<img width="303" height="182" alt="image" src="https://github.com/user-attachments/assets/49e3578c-a306-47e7-a45a-09fbc2567c57" />
 ~Recursivo:  
-  def facto_r(n):  
-      if n < 0:  
-          return "Error"  
-      elif n == 0 or n == 1:  
-          return 1  
-      else:  
-          return n * facto_r(n - 1)  
+ <img width="348" height="177" alt="image" src="https://github.com/user-attachments/assets/01a4e8cc-6898-4e6e-ae3d-c70f0a668bb5" />
+
 ### **C**  
 ~Iterativo:  
 <img width="487" height="146" alt="image" src="https://github.com/user-attachments/assets/3c1054bb-775c-47c9-9421-629494c3a15e" />
-
 ~Recursivo:  
-unsigned long long factorial_recursivo(int n) {  
-    if (n <= 1) return 1;  
-    return n * factorial_recursivo(n - 1);  
+<img width="469" height="103" alt="image" src="https://github.com/user-attachments/assets/5bc41674-dd7f-4d61-9082-ede19a419ad0" />
+  
 }  
