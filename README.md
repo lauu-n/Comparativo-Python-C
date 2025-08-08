@@ -1,6 +1,6 @@
 # Comparativo de Factorial Recursivo vs Iterativo en Python y C
 
-## 📌 Propósito de la tarea
+##  Propósito de la tarea
 La comparación se realiza en **Python** y **C**, evaluando el **tiempo de ejecución** y el **uso de memoria** para cada implementación.  
 
 El objetivo es implementar y comparar dos enfoques para calcular el factorial de un número entero positivo:  
@@ -9,7 +9,7 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 ---
 
-## 🖥 Implementación de las Funciones
+##  Implementación de las Funciones
 
 ### Python
 
@@ -35,7 +35,7 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 ---
 
-## ⏱ Métodos de Medición
+##  Métodos de Medición
 
 ### Python
 - **Tiempo:** `time.perf_counter()` para alta precisión  
@@ -47,7 +47,7 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 ---
 
-## 📊 Resultados & Hallazgos
+##  Resultados & Hallazgos
 
 ### Velocidad
 - En Python, el **iterativo** es más rápido que el recursivo para valores grandes de `n`.  
@@ -59,7 +59,7 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 ---
 
-## 📈 Gráficos
+##  Gráficos
 
 ### Python
 
