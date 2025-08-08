@@ -6,16 +6,23 @@ El objetivo de esta práctica es implementar y comparar dos enfoques para calcul
   1. Recursivo  
   2. Iterativo  
 ---
-## Implementación de las funciones  
-### **Python**
+## Implementación de las Funciones  
+### **Python:**
 ~Iterativo:  
 <img width="303" height="182" alt="image" src="https://github.com/user-attachments/assets/49e3578c-a306-47e7-a45a-09fbc2567c57" />  
 ~Recursivo:  
  <img width="348" height="177" alt="image" src="https://github.com/user-attachments/assets/01a4e8cc-6898-4e6e-ae3d-c70f0a668bb5" />
 
-### **C**  
+### **C:**  
 ~Iterativo:  
 <img width="487" height="146" alt="image" src="https://github.com/user-attachments/assets/3c1054bb-775c-47c9-9421-629494c3a15e" />  
 ~Recursivo:  
 <img width="469" height="103" alt="image" src="https://github.com/user-attachments/assets/5bc41674-dd7f-4d61-9082-ede19a419ad0" />
-
+---
+## Métodos de Medición  
+###**Phyton:**  
+~Tiempo: time.perf_counter() para alta precisión.  
+~Memoria: tracemalloc para capturar el pico de memoria (en KB).  
+###**C:**  
+~Tiempo: clock_gettime(CLOCK_MONOTONIC, ...) para medir con alta resolución.  
+~Memoria:  Lectura de /proc/self/statm en Linux y conversión a sysconf(_SC_PAGESIZE).  
