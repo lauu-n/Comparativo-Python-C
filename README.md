@@ -75,7 +75,3 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 ---
 
-### C  
-*(Aquí irán las gráficas correspondientes a C)*  
-
----
