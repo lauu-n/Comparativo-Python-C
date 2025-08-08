@@ -37,9 +37,9 @@ El objetivo de esta práctica es implementar y comparar dos enfoques para calcul
 ---
 ## **Gráficos:**  
 ### **Phyton:**  
-### **Recursivo**  
+### **Recursivo:**  
 <img width="739" height="558" alt="image" src="https://github.com/user-attachments/assets/86a06d75-0af2-4522-b369-82d5c6640da8" />  
 <img width="679" height="546" alt="image" src="https://github.com/user-attachments/assets/5ed4a8b1-f224-47c5-b0e0-7f5488f65b03" />  
-### **Iterativo:**   
+### **Iterativo:**  
 <img width="733" height="557" alt="image" src="https://github.com/user-attachments/assets/5d04cb46-017b-4f82-9ea9-632de9dd1cbd" />  
 <img width="700" height="540" alt="image" src="https://github.com/user-attachments/assets/ed09fb96-2171-4e6d-a8c6-422572265a65" />  
