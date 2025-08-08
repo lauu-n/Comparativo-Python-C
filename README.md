@@ -21,7 +21,7 @@ El objetivo de esta práctica es implementar y comparar dos enfoques para calcul
 ## Métodos de Medición  
 ### **Phyton:**  
 + Tiempo: time.perf_counter() para alta precisión.  
-+ Memoria: tracemalloc para capturar el pico de memoria (en KB).  
++ Memoria: tracemalloc para capturar el pico de memoria (en KB).    
 ### **C:**  
 + Tiempo: clock_gettime(CLOCK_MONOTONIC, ...) para medir con alta resolución.  
 + Memoria:  Lectura de /proc/self/statm en Linux y conversión a sysconf(_SC_PAGESIZE).  
