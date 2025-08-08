@@ -20,20 +20,20 @@ El objetivo de esta práctica es implementar y comparar dos enfoques para calcul
 ---  
 ## Métodos de Medición  
 ### **Phyton:**  
-- Tiempo: time.perf_counter() para alta precisión.  
-- Memoria: tracemalloc para capturar el pico de memoria (en KB).  
++ Tiempo: time.perf_counter() para alta precisión.  
++ Memoria: tracemalloc para capturar el pico de memoria (en KB).  
 ### **C:**  
-- Tiempo: clock_gettime(CLOCK_MONOTONIC, ...) para medir con alta resolución.  
-- Memoria:  Lectura de /proc/self/statm en Linux y conversión a sysconf(_SC_PAGESIZE).  
++ Tiempo: clock_gettime(CLOCK_MONOTONIC, ...) para medir con alta resolución.  
++ Memoria:  Lectura de /proc/self/statm en Linux y conversión a sysconf(_SC_PAGESIZE).  
 ---  
 ## Resultados & Hallazgos  
 ### **Observaciones:**  
 ### **Velocidad:**  
-- En Python, el iterativo es más rápido que el recursivo para valores grandes de n.  
-- En C, ambos son rápidos, pero el iterativo es ligeramente más eficiente.  
++ En Python, el iterativo es más rápido que el recursivo para valores grandes de n.  
++ En C, ambos son rápidos, pero el iterativo es ligeramente más eficiente.  
 ### **Memoria:**  
-- El recursivo consume más memoria por la acumulación de llamadas en la pila.  
-- El iterativo mantiene casi constante.  
++ El recursivo consume más memoria por la acumulación de llamadas en la pila.  
++ El iterativo mantiene casi constante.  
 ---  
 ## **Gráficos:**  
 ### **Phyton:**  
