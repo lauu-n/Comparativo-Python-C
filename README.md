@@ -69,12 +69,12 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 **Tiempo de ejecución**  
 <br>
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ae4a56f6-fe57-451a-84e1-f98025290614" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/ae4a56f6-fe57-451a-84e1-f98025290614" />
 
 
 **Uso de memoria:**  
 <br>
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/2fb78273-4038-45b6-b3af-3a3234024596" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/2fb78273-4038-45b6-b3af-3a3234024596" />
 
 
 ---
