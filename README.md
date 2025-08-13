@@ -15,12 +15,12 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 **Iterativo:**  
 <br>
-<img width="316" height="215" alt="image" src="https://github.com/user-attachments/assets/b1f5cd15-e292-4973-824b-549236dd2fb7" />
+<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/b1f5cd15-e292-4973-824b-549236dd2fb7" />
 
 
 **Recursivo:**  
 <br>
-<img width="324" height="207" alt="image" src="https://github.com/user-attachments/assets/457933fc-c83e-4d76-b072-3c93f0fe1d9a" />
+<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/457933fc-c83e-4d76-b072-3c93f0fe1d9a" />
 
 
 ---
