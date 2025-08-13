@@ -32,11 +32,18 @@ def medir_rendimiento(func, n):
     return resultado, tiempo, pico_memoria / 1024  # en KB
 
 if __name__ == "__main__":
-    #Puntos de referencia
+    # Puntos de referencia
     valores_n = [100, 200, 300, 400, 500, 600, 700, 800, 900, 998]
     tiempos_i, memorias_i = [], []
     tiempos_r, memorias_r = [], []
 
+    # Calcular y mostrar factorial de 5
+    res_5_i = fact_i(5)
+    res_5_r = fact_r(5)
+    print(f"Factorial iterativo y recursivo de 5 = {res_5_i}")
+    print("-" * 50)
+
+    # Medir con puntos de referencia grandes
     for n in valores_n:
         _, t_i, m_i = medir_rendimiento(fact_i, n)
         _, t_r, m_r = medir_rendimiento(fact_r, n)
@@ -46,7 +53,7 @@ if __name__ == "__main__":
         memorias_r.append(m_r)
         print(f"n = {n} -> Iterativo: {t_i:.8f} s, {m_i:.4f} KB | Recursivo: {t_r:.8f} s, {m_r:.4f} KB")
 
-    #Gráfica tiempo
+    # Gráfica tiempo
     plt.figure(figsize=(10, 5))
     plt.plot(valores_n, tiempos_i, marker="o", label="Iterativo", color="blue")
     plt.plot(valores_n, tiempos_r, marker="o", label="Recursivo", color="pink")
@@ -57,7 +64,7 @@ if __name__ == "__main__":
     plt.legend()
     plt.show()
 
-    # Gráficacd  memoria
+    # Gráfica memoria
     plt.figure(figsize=(10, 5))
     plt.plot(valores_n, memorias_i, marker="o", label="Iterativo", color="blue")
     plt.plot(valores_n, memorias_r, marker="o", label="Recursivo", color="pink")
