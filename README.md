@@ -15,11 +15,13 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 **Iterativo:**  
 <br>
-<img width="303" height="182" alt="Iterativo Python" src="https://github.com/user-attachments/assets/49e3578c-a306-47e7-a45a-09fbc2567c57" />  
+<img width="316" height="215" alt="image" src="https://github.com/user-attachments/assets/b1f5cd15-e292-4973-824b-549236dd2fb7" />
+
 
 **Recursivo:**  
 <br>
-<img width="348" height="177" alt="Recursivo Python" src="https://github.com/user-attachments/assets/01a4e8cc-6898-4e6e-ae3d-c70f0a668bb5" />  
+<img width="324" height="207" alt="image" src="https://github.com/user-attachments/assets/457933fc-c83e-4d76-b072-3c93f0fe1d9a" />
+
 
 ---
 
@@ -27,22 +29,24 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 **Iterativo:**  
 <br>
-<img width="487" height="146" alt="Iterativo C" src="https://github.com/user-attachments/assets/3c1054bb-775c-47c9-9421-629494c3a15e" />  
+<img width="380" height="229" alt="image" src="https://github.com/user-attachments/assets/ca788fc5-c802-4dc5-8aae-a0aa825346dc" />
+
 
 **Recursivo:**  
 <br>
-<img width="469" height="103" alt="Recursivo C" src="https://github.com/user-attachments/assets/5bc41674-dd7f-4d61-9082-ede19a419ad0" />  
+<img width="359" height="161" alt="image" src="https://github.com/user-attachments/assets/76d2500c-3dcd-48fa-8e46-a49c46e49330" />
+
 
 ---
 
 ##  Métodos de Medición
 
 ### Python
-- **Tiempo:** `time.perf_counter()` para alta precisión  
+- **Tiempo:** `time.perf_counter()`
 - **Memoria:** `tracemalloc` para capturar el pico de memoria (en KB)  
 
 ### C
-- **Tiempo:** `clock_gettime(CLOCK_MONOTONIC, ...)` para medir con alta resolución  
+- **Tiempo:** `clock_gettime(CLOCK_MONOTONIC, ...)` 
 - **Memoria:** Lectura de `/proc/self/statm` en Linux y conversión usando `sysconf(_SC_PAGESIZE)`  
 
 ---
@@ -63,15 +67,15 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 ### Python
 
-**Recursivo:**  
+**Tiempo de ejecución**  
 <br>
-<img width="739" height="558" alt="Recursivo Tiempo Python" src="https://github.com/user-attachments/assets/86a06d75-0af2-4522-b369-82d5c6640da8" />  
-<img width="679" height="546" alt="Recursivo Memoria Python" src="https://github.com/user-attachments/assets/5ed4a8b1-f224-47c5-b0e0-7f5488f65b03" />  
+<img width="1113" height="591" alt="image" src="https://github.com/user-attachments/assets/ae4a56f6-fe57-451a-84e1-f98025290614" />
 
-**Iterativo:**  
+
+**Uso de memoria:**  
 <br>
-<img width="733" height="557" alt="Iterativo Tiempo Python" src="https://github.com/user-attachments/assets/5d04cb46-017b-4f82-9ea9-632de9dd1cbd" />  
-<img width="700" height="540" alt="Iterativo Memoria Python" src="https://github.com/user-attachments/assets/ed09fb96-2171-4e6d-a8c6-422572265a65" />  
+<img width="1101" height="583" alt="image" src="https://github.com/user-attachments/assets/2fb78273-4038-45b6-b3af-3a3234024596" />
+
 
 ---
 
