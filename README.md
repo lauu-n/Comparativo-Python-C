@@ -86,4 +86,4 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 ---
 
-##  Laura Valentina Niño
+##  Laura Niño
