@@ -15,12 +15,12 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 **Iterativo:**  
 <br>
-<img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/b1f5cd15-e292-4973-824b-549236dd2fb7" />
+<img width="380" height="230" alt="image" src="https://github.com/user-attachments/assets/b1f5cd15-e292-4973-824b-549236dd2fb7" />
 
 
 **Recursivo:**  
 <br>
-<img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/457933fc-c83e-4d76-b072-3c93f0fe1d9a" />
+<img width="380" height="230" alt="image" src="https://github.com/user-attachments/assets/457933fc-c83e-4d76-b072-3c93f0fe1d9a" />
 
 
 ---
@@ -29,12 +29,12 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 **Iterativo:**  
 <br>
-<img width="380" height="229" alt="image" src="https://github.com/user-attachments/assets/ca788fc5-c802-4dc5-8aae-a0aa825346dc" />
+<img width="380" height="230" alt="image" src="https://github.com/user-attachments/assets/ca788fc5-c802-4dc5-8aae-a0aa825346dc" />
 
 
 **Recursivo:**  
 <br>
-<img width="359" height="161" alt="image" src="https://github.com/user-attachments/assets/76d2500c-3dcd-48fa-8e46-a49c46e49330" />
+<img width="300" height="230" alt="image" src="https://github.com/user-attachments/assets/76d2500c-3dcd-48fa-8e46-a49c46e49330" />
 
 
 ---
@@ -69,12 +69,12 @@ El objetivo es implementar y comparar dos enfoques para calcular el factorial de
 
 **Tiempo de ejecución**  
 <br>
-<img width="1113" height="591" alt="image" src="https://github.com/user-attachments/assets/ae4a56f6-fe57-451a-84e1-f98025290614" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/ae4a56f6-fe57-451a-84e1-f98025290614" />
 
 
 **Uso de memoria:**  
 <br>
-<img width="1101" height="583" alt="image" src="https://github.com/user-attachments/assets/2fb78273-4038-45b6-b3af-3a3234024596" />
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/2fb78273-4038-45b6-b3af-3a3234024596" />
 
 
 ---
